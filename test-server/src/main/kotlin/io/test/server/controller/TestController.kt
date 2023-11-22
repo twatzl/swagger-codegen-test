@@ -1,6 +1,6 @@
 package io.test.server.controller
 
-import base.boudicca.eventdb.api.publisher.io.test.api.TestApi
+import io.test.api.TestApi
 import io.test.model.Entry
 import org.springframework.web.bind.annotation.RestController
 

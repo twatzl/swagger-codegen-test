@@ -1,4 +1,5 @@
-package base.boudicca.eventdb.api.publisher.io.test.api
+package io.test.api
+
 import io.swagger.annotations.Api
 import io.swagger.annotations.ApiOperation
 import io.test.model.Entry
