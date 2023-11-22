@@ -4,9 +4,11 @@ plugins {
 }
 
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
-description = "asdf"
+allprojects {
+    group = "io.test"
+    version = "1.0-SNAPSHOT"
+    description = "asdf"
+}
 
 repositories {
     mavenCentral()

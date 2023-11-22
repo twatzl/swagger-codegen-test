@@ -4,16 +4,6 @@ plugins {
     id("io.cloudflight.autoconfigure.swagger-api-configure") version "1.1.0"
 }
 
-swagger {
-    apiSource(closureOf<com.benjaminsproule.swagger.gradleplugin.model.ApiSourceExtension> {
-        locations = mutableListOf(
-            "io.test.api",
-            "io.test.model"
-        )
-    })
-}
-
-
 repositories {
     mavenCentral()
 }
